@@ -1,1 +1,7 @@
-<h1>Angular App</h1>
+<h1>Angular Component API</h1>
+
+ <app-favourite 
+    [is-liked]="post.isLiked"
+    (change)="isLikedChanged($event)"
+ >
+</app-favourite>
